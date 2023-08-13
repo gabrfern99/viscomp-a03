@@ -2,12 +2,30 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11520116&assignment_repo_type=AssignmentRepo)
 # INF0417 - Visão Computacional
 
-# Passo 1
-
 ## Resumo
 ### Na introdução do relatório, apresentamos o problema significativo e crescente das doenças das plantas e sua detecção precoce. Demonstramos a necessidade crítica da detecção rápida e precisa das doenças das plantas para prevenir perdas agrícolas significativas e garantir a segurança alimentar. Introduzimos a ideia inovadora de usar técnicas de visão computacional para identificar doenças das plantas, destacando a promessa dessa abordagem em melhorar a eficiência e precisão da detecção de doenças em comparação com os métodos tradicionais.
 
 ### Na seção de fundamentação teórica, fizemos uma revisão aprofundada da literatura e dos conceitos fundamentais necessários para entender o nosso estudo. Primeiro, apresentamos uma visão geral das principais doenças das plantas, sua prevalência e seu impacto. Depois, discutimos o campo da visão computacional e sua aplicação na detecção de doenças das plantas. Explicamos como as imagens de plantas infectadas são processadas e analisadas por algoritmos de visão computacional para identificar sinais de doença. Também revisamos várias pesquisas anteriores que aplicaram técnicas de visão computacional para a detecção de doenças das plantas, enfatizando os métodos utilizados e os resultados alcançados.
+
+## Running the code
+
+### Install required libraries
+```
+pip install -r requirements.txt
+```
+### Cloning the repository
+```
+git clone https://github.com/your-username/plant-disease-detection.git
+cd plant-disease-detection
+```
+### Running the inference
+```
+python plant_disease_inference.py --image path_to_your_image.jpg
+```
+#### Example:
+```
+python plant_disease_inference.py --image sick_plant.jpg
+```
 
 
 Equipe:

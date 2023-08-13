@@ -27,6 +27,29 @@ python plant_disease_inference.py --image path_to_your_image.jpg
 python plant_disease_inference.py --image sick_plant.jpg
 ```
 
+### Results:
+#### Acertos
+```
+python plant_disease_inference.py --image 'Café (Coffee) - BichoMineiro (Leaf Miner) - Cropped/bmin002.jpg' 2>/dev/null
+1/1 [==============================] - 0s 393ms/step
+Predicted class:  Café (Coffee)_BichoMineiro (Leaf Miner)
+```
+```
+python plant_disease_inference.py --image 'Algodão (Cotton) - Mancha de Mirotecio (Myrothecium leaf spot) - 1/DSC_0103.jpg' 2>/dev/null
+1/1 [==============================] - 0s 324ms/step
+Predicted class:  Algodão (Cotton)_Mancha de Mirotecio (Myrothecium leaf spot)
+```
+#### Erros
+```
+python plant_disease_inference.py --image 'Mandioca (Cassava) - Mancha Parda (Brown leaf spot) - 1/DSC_0502.jpg' 2>/dev/null
+1/1 [==============================] - 0s 327ms/step
+Predicted class:  Café (Coffee)_Mancha Aureolada (Bacterial Blight)
+```
+```
+python plant_disease_inference.py --image 'Coqueiro (Coconut Tree) - Fitotoxidez (Phytotoxicity) - 1/DSC08024 (2).jpg' 2>/dev/null
+1/1 [==============================] - 0s 385ms/step
+Predicted class:  Coqueiro (Coconut Tree)_Queima Folhas (Coconut leaf blight)
+```
 
 Equipe:
 
